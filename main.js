@@ -20,5 +20,5 @@ function change() {
     } 
 }
 
-setInterval('change()', 4000);
+setInterval('change()', 3000);
 
