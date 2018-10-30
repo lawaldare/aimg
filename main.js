@@ -6,14 +6,14 @@ let pictures = ["img/1.jpg", "img/2.jpg", "img/3.jpg", "img/4.jpg", "img/5.jpg",
                 "img/26.jpg", "img/27.jpg", "img/28.jpg", "img/29.jpg", "img/30.jpg",
                 "img/31.jpg", "img/32.jpg", "img/33.jpg", "img/34.jpg", "img/35.jpg",
                 "img/36.jpg", "img/37.jpg", "img/38.jpg", "img/39.jpg", "img/40.jpg",
-                "img/41.jpg", "img/42.jpg", "img/43.jpg", "img/44.jpg", "img/45.jpg",
+                "img/41.jpg", "img/42.jpg", "img/44.jpg", "img/45.jpg",
                 "img/46.jpg", "img/47.jpg", "img/48.jpg", "img/49.jpg", "img/50.jpg",
                 "img/51.jpg", "img/52.jpg", "img/53.jpg", "img/54.jpg", "img/55.jpg",
                 "img/56.jpg", "img/57.jpg", "img/58.jpg",];
 let count = pictures.length;
 function change() {
     for (let i=0; i<count; i++){
-        let i = Math.floor(Math.random() * 58);
+        let i = Math.floor(Math.random() * 57);
         let image = document.getElementById('image');
             image.src = pictures[i];
     } 
