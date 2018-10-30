@@ -10,6 +10,7 @@ let pictures = ["img/1.jpg", "img/2.jpg", "img/3.jpg", "img/4.jpg", "img/5.jpg",
                 "img/46.jpg", "img/47.jpg", "img/48.jpg", "img/49.jpg", "img/50.jpg",
                 "img/51.jpg", "img/52.jpg", "img/53.jpg", "img/54.jpg", "img/55.jpg",
                 "img/56.jpg", "img/57.jpg", "img/58.jpg",];
+
 let count = pictures.length;
 function change() {
     for (let i=0; i<count; i++){
@@ -18,3 +19,5 @@ function change() {
             image.src = pictures[i];
     } 
 }
+
+setInterval('change()', 2000);
