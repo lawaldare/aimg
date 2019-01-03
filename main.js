@@ -9,7 +9,12 @@ let pictures = ["img/1.JPG", "img/2.JPG", "img/3.JPG", "img/4.jpg", "img/5.jpg",
                 "img/41.jpg", "img/42.jpg", "img/43.jpg", "img/44.jpg", "img/45.jpg",
                 "img/46.jpg", "img/47.jpg", "img/48.jpg", "img/49.jpg", "img/50.jpg",
                 "img/51.jpg", "img/52.jpg", "img/53.jpg", "img/54.jpg", "img/55.jpg",
-                "img/56.jpg", "img/57.jpg"];
+                "img/56.jpg", "img/57.jpg", "img/58.jpg", "img/59.jpg", "img/60.jpg", 
+                "img/61.jpg", "img/62.jpg", "img/63.jpg", "img/64.jpg", "img/65.jpg", 
+                "img/66.jpg", "img/67.jpg", "img/68.jpg", "img/69.jpg", "img/70.jpg", 
+                "img/71.jpg", "img/72.jpg", "img/73.jpg", "img/74.jpg", "img/75.jpg", 
+                "img/76.jpg", "img/77.jpg", "img/78.jpg", "img/79.jpg", "img/80.jpg", 
+                "img/81.jpg", "img/82.jpg"];
 
 let count = pictures.length;
 function change() {
