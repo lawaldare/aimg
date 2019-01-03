@@ -14,7 +14,7 @@ let pictures = ["img/1.JPG", "img/2.JPG", "img/3.JPG", "img/4.jpg", "img/5.jpg",
 let count = pictures.length;
 function change() {
     for (let i=0; i<count; i++){
-        let i = Math.floor(Math.random() * 57);
+        let i = Math.floor(Math.random() * count);
         let image = document.getElementById('image');
             image.src = pictures[i];
     } 
