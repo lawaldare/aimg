@@ -34,5 +34,5 @@ function change(){
     div.innerHTML = `<img src="img/${num}.jpg">`;
 }
 
-setInterval(change, 2000);
+setInterval(change, 5000);
 
